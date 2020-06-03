@@ -82,6 +82,17 @@ timeMachine.passengers.doctor.catchPhrase();
 timeMachine.passengers.companion.catchPhrase();
 
 // Below are some example objects you can create to further you understanding of objects. 
+//  *** All of these steps will create one final object. 
+
+/* Create an object called shoppingList that contains a property of 'store' to contain the store you will be shopping at.
+        i.e. grocery
+
+    Create an object as a property to contain types of objects you want to purchase.
+        i.e. fruit, vegetables, meat
+    
+    
+
+*/
 
 
 
