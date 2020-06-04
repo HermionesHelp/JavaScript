@@ -1,6 +1,6 @@
-/* Classes are a tool to quicly create similar objects. 
+/* Classes are a tool to quickly create similar objects. 
 
-Lets say we want to create a class of droids, each droid we make will have a name, a color, and a sound
+Lets say we want to create a class of Droids, each droid we make will have a name, a color, and a sound.
 
 To create a Class we must name it and create a constructor to make each object */
 
@@ -20,6 +20,9 @@ let C3P0 = new Droid('C3P0', 'gold', 'I beg your pardon.');
 console.log(C3P0.sound);
 
 /*Let's say that we have a special type of droid that we want to create that has all of these same properties as the Droid class.
+
+We could create a new class containing all the same properties, but we already have a basic Droid class.
+
 We can inherit the properties of the parent Droid class in our child class */
 
 class Assassin extends Droid {
@@ -33,7 +36,9 @@ let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
 console.log(IG88.sound);
 
 /* So our new IG-88 Assassin Droid has a special selfDestruct property, but as of right now it doesnt DO anything, 
-it's just a piece of information. Doesn;t sound like much of a Self Detruct method...... wait a second...METHOD!
+it's just a piece of information. 
+
+Doesn't sound like much of a Self Destruct mode.
 
 Methods can be assigned to classes so that each of the objects created with these will have these methods assigned to them.
 
