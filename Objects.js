@@ -84,13 +84,12 @@ timeMachine.passengers.companion.catchPhrase();
 // Below are some example objects you can create to further you understanding of objects. 
 //  *** All of these steps will create one final object. 
 
-/* Create an object called shoppingList that contains a property of 'store' to contain the store you will be shopping at.
-        i.e. grocery
+/* Create an object called tvShow that contains a property of 'title' to contain the title of your TV show.
+    - create a property of your show that describes the type of show it is, drama, comedy, sci-fi
 
-    Create an object as a property to contain types of objects you want to purchase.
-        i.e. fruit, vegetables, meat
-    
-    
+    Create an object as a property to contain characters in your show. 
+        - Each of these characters should have a name and some other property you decide on to define them.
+        - Each character should have a method (that is a function remember) that can be called to make your "character" "do" comething
 
 */
 
