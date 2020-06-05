@@ -1,6 +1,6 @@
 /* Scope is the idea that some variables are accessible or inaccessible from other parts of the program.
 
-An important part of understanding scope is recognizing blocks of code. And we've seen blocks before in functions and if
+An important part of understanding scope is recognizing blocks of code, and we've seen blocks before in functions and in
 if statements. The block of code is the code found inside a set of curly braces. 
 
 Scope is the context in which variables are declared. Variables can exist either inside or outside of 'blocks' of code.
@@ -30,7 +30,7 @@ function atYourService (){
 }
 atYourService();
 
-/* Dwarves can only be used insice of the block of code deliniated by the curly braces for the function.
+/* Dwarves can only be used inside of the block of code deliniated by the curly braces for the function.
 
 If you try to access that variable outside of the block of code, you'll get an Refrence Error.
 *** uncomment the code below to see the error ***/
