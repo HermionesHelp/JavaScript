@@ -55,7 +55,7 @@ Methods can be assigned to classes so that each of the objects created with thes
 //             this.selfDestruct -= 1;
 //         }
 //     }
-// }
+// } 
 
 // let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
 // IG88.initiateSelfDestruct();

@@ -88,3 +88,4 @@ Reminder: the area of any square is equal to the length of a side squared */
 Reminder: you've already written a function to calculate the area of a square, you should call that function. */
 
 
+ 

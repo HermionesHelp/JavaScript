@@ -91,7 +91,7 @@ timeMachine.passengers.companion.catchPhrase();
         - Each of these characters should have a name and some other property you decide on to define them.
         - Each character should have a method (that is a function remember) that can be called to make your "character" "do" comething
 
-*/
+*/ 
 
 
 
