@@ -47,7 +47,7 @@ function whichWizard (){
 }
 
 whichWizard();
-console.log(name); 
+console.log(name);  
 
 /* The important thing to notice there is on line 45. A local variable is created but the let keyword is forgotten.
 Name is a global variable so when it's called inside of whichWizard the global variable is changed. 
@@ -60,3 +60,6 @@ function grayOrWhite(){
 }
 
 grayOrWhite();
+
+
+// Twan was here
