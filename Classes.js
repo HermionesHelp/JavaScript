@@ -25,15 +25,15 @@ We could create a new class containing all the same properties, but we already h
 
 We can inherit the properties of the parent Droid class in our child class */
 
-class Assassin extends Droid {
-    constructor(name, color, sound){
-        super(name, color, sound);
-        this.selfDestruct = 1 
-    }
-}
+// class Assassin extends Droid {
+//     constructor(name, color, sound){
+//         super(name, color, sound);
+//         this.selfDestruct = 1 
+//     }
+// }
 
-let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
-console.log(IG88.sound);
+// let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
+// console.log(IG88.sound);
 
 /* So our new IG-88 Assassin Droid has a special selfDestruct property, but as of right now it doesnt DO anything, 
 it's just a piece of information. 
@@ -44,21 +44,24 @@ Methods can be assigned to classes so that each of the objects created with thes
 
 ***** You will need to comment out the above Assassin class before running this next section of code*****/
 
-// class Assassin extends Droid {
-//     constructor(name, color, sound){
-//         super(name, color, sound);
-//         this.selfDestruct = 1 
-//     }
-//     initiateSelfDestruct(){
-//         if (this.selfDestruct === 1){
-//             console.log('Manufacturers protocol dictates I cannot be captured. I must be destroyed....*BOOM*')
-//             this.selfDestruct -= 1;
-//         }
-//     }
-// } 
+class Assassin extends Droid {
+    constructor(name, color, sound){
+        super(name, color, sound);
+        this.selfDestruct = 1 
+    }
+    initiateSelfDestruct(){
+        if (this.selfDestruct === 1){
+            console.log('Manufacturers protocol dictates I cannot be captured. I must be destroyed....*BOOM*')
+            this.selfDestruct -= 1;
+        }
+    }
+} 
 
-// let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
-// IG88.initiateSelfDestruct();
+let IG88 = new Assassin ('IG-88', 'silver','I Will Initiate Self-Destruct.')
+console.log(IG88.sound);
+IG88.initiateSelfDestruct();
+IG88.initiateSelfDestruct();
+
 
 /*Now to create some classes of your own to practice.
 
