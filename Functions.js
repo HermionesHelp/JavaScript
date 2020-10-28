@@ -2,9 +2,9 @@
 
 a function declaration contains consistent parts. 
 
-|Function|
-|keyword|   |identifier|
-function     greetWorld    (){
+|Function|                 
+|keyword|   |identifier|   |arguments| <- (this may be blank depending on the function)
+function     greetWorld    (name){
     console.log('Hello, World!');      <<< Function body
 }
 
