@@ -68,13 +68,13 @@ A do...while statement says to do a task once and then keep doing it until a spe
 
 The syntax for a do...while statement looks like this:
 */
-let cupsOfSugarNeeded = 3;
-let cupsAdded = 0;
+let  fireSeedsNeeded = 3;
+let seedsAdded = 0;
 
 do {
- cupsAdded++
-} while (cupsAdded < cupsOfSugarNeeded){
-    console.log('Needs more sugar.');
+ seedsAdded++
+} while (seedsAdded < fireSeedsNeeded){
+    console.log('Needs more Fire Seeds.');
 };
 
 /* The break statement can be used to end a loop if a specific condition is met.*/
