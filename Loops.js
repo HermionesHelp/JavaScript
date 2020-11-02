@@ -68,13 +68,18 @@ A do...while statement says to do a task once and then keep doing it until a spe
 
 The syntax for a do...while statement looks like this:
 */
-let  fireSeedsNeeded = 3;
+const input = require('readline-sync');
+
+let fireSeedsNeeded = 5;
 let seedsAdded = 0;
 
 do {
- seedsAdded++
-} while (seedsAdded < fireSeedsNeeded){
-    console.log('Needs more Fire Seeds.');
+  let wantToAdd = Number(input.question('How many do you want to add? '));
+  seedsAdded += wantToAdd;
+  console.log(seedsAdded);
+
+} while (seedsAdded !== fireSeedsNeeded){
+    console.log("That's enough Fire Seeds.");
 };
 
 /* The break statement can be used to end a loop if a specific condition is met.*/
