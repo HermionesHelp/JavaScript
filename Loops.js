@@ -1,3 +1,4 @@
+const input = require('readline-sync');
 /* Loops are an important way to repeat a block of code until a specified condition is met. 
 
 A typical loop contains three expressions separated by ; inside the parentheses: 
@@ -61,14 +62,28 @@ while (counter < 100){
     counter += 10
 }
 
+/* Here is a while loop with a user prompt */
+
+let fireSeedsNeeded = 3;
+let seedsAdded = 0;
+
+let wantToAdd = Number(input.question('How many do you want to add? '));
+seedsAdded += wantToAdd;
+
+while (seedsAdded !== fireSeedsNeeded){
+    wantToAdd = Number(input.question('How many do you want to add? '));
+    seedsAdded += wantToAdd;
+};
+console.log("That's enough Fire Seeds.");
+
 /* In some cases, you want a piece of code to run at least once and then loop based on a specific condition after its initial run.
 This is where the do...while statement is handy.
 
 A do...while statement says to do a task once and then keep doing it until a specified condition is no longer met.
 
-The syntax for a do...while statement looks like this:
+We can convert the above while loop to a do... while loop like this
 */
-const input = require('readline-sync');
+
 
 let fireSeedsNeeded = 5;
 let seedsAdded = 0;
@@ -76,7 +91,6 @@ let seedsAdded = 0;
 do {
   let wantToAdd = Number(input.question('How many do you want to add? '));
   seedsAdded += wantToAdd;
-  console.log(seedsAdded);
 
 } while (seedsAdded !== fireSeedsNeeded){
     console.log("That's enough Fire Seeds.");
