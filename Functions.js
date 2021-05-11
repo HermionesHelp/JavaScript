@@ -3,7 +3,7 @@
 a function declaration contains consistent parts. 
 
 |Function|                 
-|keyword|   |identifier|   |arguments| <- (this may be blank depending on the function)
+|keyword|   |identifier|   |parameters| <- (this may be blank depending on the function)
 function     greetWorld    (name){
     console.log('Hello, World!');      <<< Function body
 }
@@ -47,9 +47,9 @@ The for loop then increments from 0 to the number of times that is provided as a
 */
 
 function sayHello (name, times){
-  let newname = sayMyName(name);
+  let newName = sayMyName(name);
     for (let i = 0; i < times; i ++){
-      console.log(`Hello, ${newname}`);
+      console.log(`Hello, ${newName}`);
     }
 }
   
@@ -82,10 +82,7 @@ Reminder: the area of any square is equal to the length of a side squared */
 
 
 
-
 /* Write a function that increases the size of a square by 2 units and returns the area of this new square
 
 Reminder: you've already written a function to calculate the area of a square, you should call that function. */
 
-
- 
